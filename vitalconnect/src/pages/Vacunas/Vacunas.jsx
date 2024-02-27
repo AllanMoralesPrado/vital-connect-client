@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Info from "../../componentes/Info/Info";
-import vacunas from "../../componentes/assets/Vacunas";
+
+const dataUrl = "http://localhost:8080/api/vacunas";
 
 function Vacunas() {
   return (
     <>
-      <Info data={vacunas} />
+      <Info dataUrl={dataUrl} />
     </>
   );
 }
