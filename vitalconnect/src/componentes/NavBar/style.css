@@ -7,6 +7,8 @@
 
 .nav li {
   float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
 
 .nav li a {
@@ -26,15 +28,36 @@
 
 .primerNavbar ul {
   background-color: #fff;
+  display: flex;
+  justify-content: space-between;
 }
 
 .primerNavbar li a {
-  color: var(--color-secundary);
+  color: var(--color-secondary);
 }
 
 .segundoNavbar ul {
   background-color: var(--color-primary);
 }
-.primerNavbar li a {
+
+.segundoNavbar li a{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.segundoNavbar li a {
   color: #fff;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.segundoNavbar li a span{
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.segundoNavbar li a img{
+  width: 40px;
+  height: auto;
 }

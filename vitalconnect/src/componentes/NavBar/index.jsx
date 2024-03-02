@@ -1,4 +1,8 @@
 import "./style.css";
+import svgVaccine from "../assets/syringe-svgrepo-com.svg";
+import svgExam from "../assets/checkup-diagnosis-healthcare-svgrepo-com.svg";
+import svgMap from "../assets/map-location-svgrepo-com.svg";
+import downArrow from "../assets/down-arrow-5-svgrepo-com.svg";
 function NavBar() {
   return (
     <nav>
@@ -8,12 +12,6 @@ function NavBar() {
             <a>Home</a>
           </li>
           <li>
-            <a>News</a>
-          </li>
-          <li>
-            <a>Contact</a>
-          </li>
-          <li style={{ float: "right" }}>
             <a className="active">About</a>
           </li>
         </ul>
@@ -21,16 +19,24 @@ function NavBar() {
       <div className="nav segundoNavbar">
         <ul>
           <li>
-            <a>Home</a>
+            <a>
+              <span>Exámenes</span>
+              <img src={svgVaccine} alt="" /> <img src={downArrow} alt="" />
+            </a>
           </li>
           <li>
-            <a>News</a>
+            <a>
+              {" "}
+              <span>Vacunas</span>
+              <img src={svgExam} alt="" /> <img src={downArrow} alt="" />
+            </a>
           </li>
           <li>
-            <a>Contact</a>
-          </li>
-          <li style={{ float: "right" }}>
-            <a className="active">About</a>
+            <a>
+              {" "}
+              <span>Localizador</span>
+              <img src={svgMap} alt="" /> <img src={downArrow} alt="" />
+            </a>
           </li>
         </ul>
       </div>

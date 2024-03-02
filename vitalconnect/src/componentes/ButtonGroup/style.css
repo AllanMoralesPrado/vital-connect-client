@@ -1,0 +1,17 @@
+h2{
+    text-align: center;
+    color:#17726d;
+    font-size: 55px;
+    font-weight: 300;
+}
+ul{
+    display:flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+}
+
+li{
+    list-style-type:none;
+    width: 200px;
+    height: auto;
+}
