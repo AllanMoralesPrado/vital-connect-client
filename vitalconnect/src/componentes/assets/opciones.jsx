@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
 import imgNinez from "./ninez.webp";
-import imgAdolescencia from "./adolescencia.jpg";
+import imgAdolescencia from "./adolescencia.webp";
 import imgAdultez from "./adultez.webp";
-import imgAdultoMayor from "./adulto_mayor.jpg";
+import imgAdultoMayor from "./adulto_mayor.webp";
 
 const optionsCicloVital = [
   {

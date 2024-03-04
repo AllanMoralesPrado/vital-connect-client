@@ -18,30 +18,55 @@
   text-decoration: none;
 }
 
-.nav li a:hover:not(.active) {
-  background-color: #111;
+.nav li a:hover {
+  cursor: pointer;
+  /* background-color: #173072; */
 }
 
-.nav .active {
-  background-color: #04aa6d;
+.nav li a span:hover {
+  text-decoration: underline;
+  /* background-color: #173072; */
 }
 
-.primerNavbar ul {
-  background-color: #fff;
+.primerNavbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+
+.primerNavbar img {
+  width: 225px;
+  max-height: 200px;
 }
 
 .primerNavbar li a {
   color: var(--color-secondary);
 }
 
+/* .searchBar label {
+  background-color: #d9d9d9;
+  height: 300px;
+}
+
+.searchBar input {
+  font-size: 32px;
+  font-size: max(32px, 1em);
+  font-family: inherit;
+  border: none;
+}
+
+.searchBar label img {
+  width: 40px;
+  height: auto;
+} */
+
 .segundoNavbar ul {
   background-color: var(--color-primary);
 }
 
-.segundoNavbar li a{
-  display:flex;
+.segundoNavbar li a {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -52,12 +77,66 @@
   padding-right: 0;
 }
 
-.segundoNavbar li a span{
-  font-size: 20px;
+.segundoNavbar li a span {
+  font-size: 25px;
   padding-right: 5px;
 }
 
-.segundoNavbar li a img{
+.segundoNavbar li a img {
   width: 40px;
   height: auto;
+}
+
+form {
+  /* This bit sets up the horizontal layout */
+  display: flex;
+  flex-direction: row;
+
+  /* This bit draws the box around it */
+  border: 2px solid grey;
+  border-radius: 8px;
+
+  /* I've used padding so you can see the edges of the elements. */
+  padding: 0 0 0 8px;
+
+  background-color: #d9d9d9;
+}
+
+input {
+  /* Tell the input to use all the available space */
+  flex-grow: 2;
+  /* And hide the input's outline, so the form looks like the outline */
+  border: none;
+  border-radius: 8px 0 0 8px;
+  font-size: 28px;
+  font-size: max(28px, 1em);
+  font-family: inherit;
+  background-color: #d9d9d9;
+}
+
+/* remove the input focus blue box, it will be in the wrong place. */
+input:focus {
+  outline: none;
+  background-color: #d9d9d9;
+}
+
+/* Add the focus effect to the form so it contains the button */
+form:focus-within {
+  border: 2px solid #173072;
+  border-radius: 8px;
+}
+
+button {
+  /* Just a little styling to make it pretty */
+  color: white;
+  height: 45px;
+  width: auto;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  background-color: #d9d9d9;
+}
+
+.searchBar button img {
+  height: 45px;
+  width: auto;
 }
