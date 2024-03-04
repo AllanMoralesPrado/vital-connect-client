@@ -9,35 +9,40 @@ function NavBar() {
   return (
     <nav>
       <div className="nav primerNavbar">
-        <img src={logoProject} alt="Vital Connect" />
-        <div className="searchBar">
-          <form>
-            <input type="text" name="search" id="search" size="15" />
-            <button>
-              <img src={svgSearch} alt="" />
-            </button>
-          </form>
-        </div>
+        <div className="img"></div>
+        {/* <div className="searchBar">
+          <input
+            type="search"
+            name="search"
+            id="search"
+            size="19"
+            placeholder="¿Qué desea buscar?"
+            list="filtro"
+          />
+          <datalist id="filtro">
+            <option value="volvo" />
+            <option value="saab" />
+            <option value="mercedes" />
+            <option value="audi" />
+          </datalist>
+          <div>
+            <img src={svgSearch} alt="" />
+          </div>
+        </div> */}
       </div>
       <div className="nav segundoNavbar">
         <ul>
           <li>
-            <a>
-              <span>Exámenes</span>
-              <img src={svgVaccine} alt="" /> <img src={downArrow} alt="" />
-            </a>
+            <span>Exámenes</span>
+            <img src={svgVaccine} alt="" /> <img src={downArrow} alt="" />
           </li>
           <li>
-            <a>
-              <span>Vacunas</span>
-              <img src={svgExam} alt="" /> <img src={downArrow} alt="" />
-            </a>
+            <span>Vacunas</span>
+            <img src={svgExam} alt="" /> <img src={downArrow} alt="" />
           </li>
           <li>
-            <a>
-              <span>Localizador</span>
-              <img src={svgMap} alt="" /> <img src={downArrow} alt="" />
-            </a>
+            <span>Localizador</span>
+            <img src={svgMap} alt="" />
           </li>
         </ul>
       </div>

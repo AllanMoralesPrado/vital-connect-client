@@ -1,0 +1,18 @@
+.footer-e{
+    background-color: #17726D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 5px solid #173072;
+    max-height: 155px;
+    padding: 10px 0;
+}
+
+.footer-logo{
+    width: 212px;
+}
+
+.footer-paragraph{
+    margin-bottom: 0;
+    color: #fff;
+}

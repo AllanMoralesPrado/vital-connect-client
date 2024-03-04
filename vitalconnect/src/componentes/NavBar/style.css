@@ -1,3 +1,5 @@
+
+
 .nav ul {
   list-style-type: none;
   margin: 0;
@@ -20,13 +22,14 @@
 
 .nav li a:hover {
   cursor: pointer;
-  /* background-color: #173072; */
-}
-
-.nav li a span:hover {
   text-decoration: underline;
   /* background-color: #173072; */
 }
+
+/* .nav li a span:hover {
+  text-decoration: underline;
+  background-color: #173072;
+} */
 
 .primerNavbar {
   display: flex;
@@ -35,9 +38,22 @@
   padding: 0 10px 0 10px;
 }
 
-.primerNavbar img {
+.primerNavbar .img {
+  background: url("../assets/logo-color.png");
+  background-repeat: no-repeat;
   width: 225px;
-  max-height: 200px;
+  height: auto;
+  aspect-ratio: 61/23;
+  background-size: contain;
+}
+
+@media screen and (max-width: 600px) {
+  .primerNavbar .img {
+    background: url("../assets/isotipo.png");
+    width: 30px;
+    aspect-ratio: 1/1;
+    background-size: contain;
+  }
 }
 
 .primerNavbar li a {
@@ -61,44 +77,54 @@
   height: auto;
 } */
 
-.segundoNavbar ul {
+.segundoNavbar{
+  height: 110px;
   background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.segundoNavbar li a {
+.segundoNavbar ul{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.segundoNavbar li {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.segundoNavbar li a {
   color: #fff;
   padding-left: 0;
   padding-right: 0;
 }
 
-.segundoNavbar li a span {
-  font-size: 25px;
+.segundoNavbar li span {
+  font-size: 35px;
   padding-right: 5px;
 }
 
-.segundoNavbar li a img {
-  width: 40px;
+.segundoNavbar li img {
+  width: 50px;
   height: auto;
 }
 
-form {
+.segundoNavbar li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.searchBar {
   /* This bit sets up the horizontal layout */
   display: flex;
   flex-direction: row;
-
   /* This bit draws the box around it */
   border: 2px solid grey;
   border-radius: 8px;
 
   /* I've used padding so you can see the edges of the elements. */
   padding: 0 0 0 8px;
-
   background-color: #d9d9d9;
 }
 
@@ -108,7 +134,7 @@ input {
   /* And hide the input's outline, so the form looks like the outline */
   border: none;
   border-radius: 8px 0 0 8px;
-  font-size: 28px;
+  font-size: 18px;
   font-size: max(28px, 1em);
   font-family: inherit;
   background-color: #d9d9d9;
@@ -121,22 +147,7 @@ input:focus {
 }
 
 /* Add the focus effect to the form so it contains the button */
-form:focus-within {
+.searchBar:focus-within {
   border: 2px solid #173072;
   border-radius: 8px;
-}
-
-button {
-  /* Just a little styling to make it pretty */
-  color: white;
-  height: 45px;
-  width: auto;
-  border: none;
-  border-radius: 0 8px 8px 0;
-  background-color: #d9d9d9;
-}
-
-.searchBar button img {
-  height: 45px;
-  width: auto;
 }
