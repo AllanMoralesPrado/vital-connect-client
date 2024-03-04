@@ -22,8 +22,6 @@ body, html {
 }
 
 main{
-  width:1000px;
-  max-width: 90%;
-  margin: auto;
+  width:100%;
   margin-bottom: 5rem;
 }
