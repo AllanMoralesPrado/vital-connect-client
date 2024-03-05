@@ -1,9 +1,9 @@
 import "./style.css";
-const ButtonGroup = ({ title, options }) => {
+function ButtonGroup({ options }) {
   return (
     <>
       <div className="container-button-group">
-        <h2>{title}</h2>
+        <h2>¿Qué exámenes me corresponden?</h2>
         <nav>
           <ul>
             {options.map((option) => (
@@ -14,6 +14,6 @@ const ButtonGroup = ({ title, options }) => {
       </div>
     </>
   );
-};
+}
 
 export default ButtonGroup;

@@ -1,13 +1,14 @@
-import React from "react";
-import ButtonGroup from "../ButtonGroup/ButtonGroup";
-import { optionsCicloVital, optionsMenu } from "../assets/opciones";
+import ButtonGroup from "../../componentes/ButtonGroup/ButtonGroup";
+import {
+  optionsCicloVital,
+  optionsMenu,
+} from "../../componentes/assets/opciones";
 
-function CicloVital({ servicio }) {
+function CicloVital() {
   return (
-    <ButtonGroup
-      title={"¿Qué " + { servicio } + " me corresponden?"}
-      options={optionsCicloVital}
-    />
+    <>
+      <ButtonGroup options={optionsCicloVital} />
+    </>
   );
 }
 
