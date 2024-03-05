@@ -13,11 +13,11 @@ function App() {
       </header>
 
       <main className="main">
-        <Routes>
+        {/*   <Routes>
           <Route path="/examenes" element={<Examenes />}></Route>
           <Route path="/vacunas" element={<Vacunas />}></Route>
           <Route path="/localizacion" element={<Localizacion />}></Route>
-        </Routes>
+        </Routes> */}
         <Body />
       </main>
 
