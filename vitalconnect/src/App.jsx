@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import Examenes from "./pages/Examenes/Examenes";
 import Localizacion from "./pages/Localizacion/Localizacion";
 import Vacunas from "./pages/Vacunas/Vacunas";
+
 function App() {
   return (
     <>
