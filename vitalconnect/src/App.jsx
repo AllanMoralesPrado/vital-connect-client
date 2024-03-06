@@ -1,7 +1,7 @@
 import NavBar from "./componentes/NavBar";
 import Footer from "./componentes/Footer/footer";
 import CicloVital from "./pages/CicloVital/CicloVital";
-import Hero from "./pages/Hero/Hero";
+import Index from "./pages/Index/Index";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
 
       <main className="main">
         <CicloVital />
-        {/* <Hero /> */}
+        {/* <Index /> */}
       </main>
 
       <Footer />
