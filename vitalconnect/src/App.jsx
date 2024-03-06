@@ -2,7 +2,6 @@ import NavBar from "./componentes/NavBar";
 import Footer from "./componentes/Footer/footer";
 import CicloVital from "./pages/CicloVital/CicloVital";
 import Index from "./pages/Index/Index";
-import ScrollList from "./componentes/ScrollList/ScrollList";
 import Popup from "./componentes/Popup/Popup";
 import ScrollList from "./componentes/ScrollList/ScrollList";
 import Examenes from "./pages/Examenes/Examenes";
@@ -17,7 +16,7 @@ function App() {
 
       <main className="main">
         {/* <CicloVital /> */}
-        {/* {/* <CicloVital /> */} */}
+        {/* {/* <CicloVital /> */}
         <Index />
         {/* <Popup /> */}
         <ScrollList />
