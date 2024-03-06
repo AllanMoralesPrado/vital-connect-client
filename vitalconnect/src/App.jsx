@@ -4,7 +4,6 @@ import CicloVital from "./pages/CicloVital/CicloVital";
 import Index from "./pages/Index/Index";
 import ScrollList from "./componentes/ScrollList/ScrollList";
 import Popup from "./componentes/Popup/Popup";
-import ScrollList from "./componentes/ScrollList/ScrollList";
 import Examenes from "./pages/Examenes/Examenes";
 import Localizacion from "./pages/Localizacion/Localizacion";
 
