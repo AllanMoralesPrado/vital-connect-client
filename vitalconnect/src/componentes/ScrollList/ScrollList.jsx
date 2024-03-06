@@ -5,7 +5,7 @@ function ScrollList() {
   return (
     <>
       {/* coloquen aqui todo lo que quieran */}
-      <h1>Esto por ejemplo</h1>
+      <h1 className="scroll-h1">Esto por ejemplo</h1>
     </>
   );
 }
