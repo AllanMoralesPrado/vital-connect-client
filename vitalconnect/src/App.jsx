@@ -2,6 +2,7 @@ import NavBar from "./componentes/NavBar";
 import Footer from "./componentes/Footer/footer";
 import CicloVital from "./pages/CicloVital/CicloVital";
 import Index from "./pages/Index/Index";
+import ScrollList from "./componentes/ScrollList/ScrollList";
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       </header>
 
       <main className="main">
-        <CicloVital />
+        {/* <CicloVital /> */}
         {/* <Index /> */}
+        <ScrollList />
       </main>
 
       <Footer />

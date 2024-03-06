@@ -1,0 +1,25 @@
+.scroll-list {
+  overflow-y: scroll; /* desplazamiento vertical */
+  max-height: 100%; /* altura max de la lista */
+}
+
+ul {
+  list-style-type: none; /* Elimina los puntos de la lista*/
+}
+
+.list-item {
+  padding: 1px;
+  border-bottom: 1px solid #c5bfbf; /* añade borde inferior a cada elemento de la lista */
+  margin-bottom: 0px; /* espacio entre parrafos */
+  /*text-align: center;*/
+  line-height: 1.2;
+  font-size: 12px;
+}
+
+.scroll-list-container {
+  width: 350px; /* ancho del contenedor */
+  height: 250px; /* altura del contenedor */
+  border: 1px solid #000000; /*borde contenedor */
+  overflow: hidden; /* Oculta el desbordamiento de la lista */
+  background-color: #f0ebeb;
+}
