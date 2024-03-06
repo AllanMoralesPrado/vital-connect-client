@@ -5,7 +5,9 @@ function Index() {
   return (
     <>
       <Hero />
-      <p>Page Content..</p>
+      {/* <Rand info="vacuna"/> */}
+      {/* <Rand info="examene"/> */}
+      {/* <Rand info="establecimiento"/> */}
     </>
   );
 }
