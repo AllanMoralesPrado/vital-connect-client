@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+  margin: 0;
+  color: #17726d;
+  font-size: 35px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0px;
+  color: grey;
+  font-size: 30px;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.select {
+  margin-right: 15px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.button {
+  background-color: #17726d;
+  border-radius: 5px;
+}
