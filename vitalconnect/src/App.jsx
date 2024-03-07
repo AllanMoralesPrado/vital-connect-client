@@ -7,8 +7,7 @@ import Examenes from "./pages/Examenes/Examenes";
 import Localizacion from "./pages/Localizacion/Localizacion";
 import ScrollList from "./componentes/ScrollList/ScrollList";
 import Vacunas from "./pages/Vacunas/Vacunas";
-import Vacunas from "./pages/Vacunas/Vacunas";
-
+import Selector from "./componentes/Selector/Selector";
 function App() {
   return (
     <>
@@ -25,7 +24,8 @@ function App() {
         {/* <Popup /> */}
         {/* <Examenes /> */}
         {/* <Localizacion /> */}
-        <Vacunas />
+        <ScrollList />
+        <Popup />
       </main>
 
       <Footer />
