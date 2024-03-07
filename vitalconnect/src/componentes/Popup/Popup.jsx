@@ -1,5 +1,6 @@
 import "./style.css";
 import React, { useState } from "react";
+import ScrollList from "../ScrollList/ScrollList";
 
 function Popup() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,12 +12,19 @@ function Popup() {
     <>
       <button onClick={togglePopup}>Abrir Pop-up</button>
       {isOpen && (
-        <div className="popup-overlay">
-          <div className="popup">
+        <div className="popup-overlay" role="button" onClick={togglePopup}>
+          <div
+            className="popup"
+            role="button"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button className="cerrar" onClick={togglePopup}>
+              X
+            </button>
             <div className="popup-content">
-              <h2>Centro de salud familiar la florida</h2>
+              <h2>Centro de salud familiar La Florida</h2>
               <p>
-                Cesfam<br></br>Av. La Florida 6015 81728361 La Florida<br></br>
+                Cesfam<br></br>Av. La Florida 6015 81728361, La Florida<br></br>
                 Region Metropolitana<br></br>Teléfono: (2)24362527
               </p>
               <select name="servicio" id="servicioId">
@@ -26,9 +34,9 @@ function Popup() {
               </select>
               <button type="submit">Buscar</button>
             </div>
-            <button onClick={togglePopup} className="cerrar">
-              Cerrar
-            </button>
+            <div className="popup-scrolllist">
+              <ScrollList />
+            </div>
           </div>
         </div>
       )}
