@@ -1,11 +1,11 @@
 import React from "react";
 import "./style.css";
-import imgNinez from "./ninez.webp";
+import imgExamen from "./imgExamenes.png";
 
 function Examenes() {
   return (
     <>
-      <div className="text">
+      <div>
         <h1>Examenes Niñez</h1>
         <h2>0-11 años</h2>
       </div>
@@ -21,7 +21,7 @@ function Examenes() {
           </button>
         </div>
         <div className="imagen">
-          <img src={imgNinez} alt="Niñez" style={{ width: "380px" }} />
+          <img src={imgExamen} alt="Niñez" style={{ width: "380px" }} />
         </div>
       </div>
     </>

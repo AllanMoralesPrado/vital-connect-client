@@ -7,6 +7,7 @@ import Examenes from "./pages/Examenes/Examenes";
 import Localizacion from "./pages/Localizacion/Localizacion";
 import ScrollList from "./componentes/ScrollList/ScrollList";
 import Vacunas from "./pages/Vacunas/Vacunas";
+import Vacunas from "./pages/Vacunas/Vacunas";
 
 function App() {
   return (
