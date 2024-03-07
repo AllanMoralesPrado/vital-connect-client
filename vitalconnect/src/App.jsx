@@ -5,7 +5,11 @@ import Index from "./pages/Index/Index";
 import Popup from "./componentes/Popup/Popup";
 import Examenes from "./pages/Examenes/Examenes";
 import Localizacion from "./pages/Localizacion/Localizacion";
+<<<<<<< HEAD
 import ScrollList from "./componentes/ScrollList/ScrollList";
+=======
+import Info from "./componentes/Info/Info";
+>>>>>>> 21cf5862428e955274330c66b433ba118481cb18
 
 function App() {
   return (
@@ -15,6 +19,7 @@ function App() {
       </header>
 
       <main className="main">
+<<<<<<< HEAD
         {/* <CicloVital /> */}
         {/* {/* <CicloVital /> */}
         {/* <Index /> */}
@@ -23,6 +28,10 @@ function App() {
         {/* <Popup /> */}
         {/* <Examenes /> */}
         {/* <Localizacion /> */}
+=======
+        <Index />
+        <Popup />
+>>>>>>> 21cf5862428e955274330c66b433ba118481cb18
       </main>
 
       <Footer />
