@@ -6,6 +6,8 @@ import Popup from "./componentes/Popup/Popup";
 import ScrollList from "./componentes/ScrollList/ScrollList";
 import Examenes from "./pages/Examenes/Examenes";
 import Localizacion from "./pages/Localizacion/Localizacion";
+import Popupvacunas from "./componentes/Popupvacunas/Popupvacunas";
+import ScrollCentros from "./componentes/ScrollCentros/ScrollCentros";
 
 function App() {
   return (
@@ -17,12 +19,14 @@ function App() {
       <main className="main">
         {/* <CicloVital /> */}
         {/* {/* <CicloVital /> */}
-        <Index />
-        {/* <Popup /> */}
-        <ScrollList />
+        {/* <Index /> */}
+        {/*  <Popup /> */}
+        {/* <ScrollList /> */}
         {/* <Popup /> */}
         {/* <Examenes /> */}
         {/* <Localizacion /> */}
+        <Popupvacunas />
+        {/* <ScrollCentros /> */}
       </main>
 
       <Footer />

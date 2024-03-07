@@ -1,0 +1,40 @@
+.scroll-list {
+  overflow-y: scroll;
+  max-height: 100%;
+}
+
+ul {
+  list-style-type: none; /* Elimina los puntos de la lista*/
+}
+
+.list-item {
+  padding: 1px;
+  border-bottom: 1px solid #c5bfbf; /* añade borde inferior a cada elemento de la lista */
+  margin-bottom: 0px; /* espacio entre parrafos */
+  text-align: start;
+  line-height: 1.2;
+  font-size: 12px;
+}
+
+.material-symbols-outlined {
+  font-size: 24px;
+  color: #21ba39;
+}
+
+.symbol-container {
+  float: left; /* Alinea el contenedor del símbolo a la izquierda */
+  margin-right: 10px;
+  margin-top: 7px;
+}
+
+.content {
+  overflow: hidden;
+}
+
+.scroll-list-container {
+  width: 350px; /* ancho del contenedor */
+  height: 250px; /* altura del contenedor */
+  border: 1px solid #000000; /*borde contenedor */
+  overflow: hidden; /* Oculta el desbordamiento de la lista */
+  background-color: #f0ebeb;
+}
