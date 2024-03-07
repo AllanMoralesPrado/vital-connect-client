@@ -8,6 +8,7 @@ import Localizacion from "./pages/Localizacion/Localizacion";
 import Popupvacunas from "./componentes/Popupvacunas/Popupvacunas";
 import ScrollCentros from "./componentes/ScrollCentros/ScrollCentros";
 import Info from "./componentes/Info/Info";
+import Vacunas from "./pages/Vacunas/Vacunas";
 
 function App() {
   return (
@@ -17,8 +18,10 @@ function App() {
       </header>
 
       <main className="main">
-        <Index />
-        <Popup />
+        {/* <Index /> */}
+        {/* <Popup /> */}
+        {/* <Vacunas /> */}
+        <Examenes />
       </main>
 
       <Footer />
