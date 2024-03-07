@@ -5,6 +5,7 @@ import Index from "./pages/Index/Index";
 import Popup from "./componentes/Popup/Popup";
 import Examenes from "./pages/Examenes/Examenes";
 import Localizacion from "./pages/Localizacion/Localizacion";
+import ScrollList from "./componentes/ScrollList/ScrollList";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <main className="main">
         {/* <CicloVital /> */}
         {/* {/* <CicloVital /> */}
-        <Index />
+        {/* <Index /> */}
         {/* <Popup /> */}
         <ScrollList />
         {/* <Popup /> */}
