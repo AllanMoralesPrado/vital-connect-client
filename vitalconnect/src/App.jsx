@@ -21,7 +21,7 @@ function App() {
         {/* <Index /> */}
         {/* <Popup /> */}
         {/* <Vacunas /> */}
-        <Examenes />
+        <Vacunas />
       </main>
 
       <Footer />
