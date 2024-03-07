@@ -12,7 +12,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 100vw;
+  max-width: 1400px;
   height: 500px;
   position: relative;
   margin: auto;
@@ -59,17 +59,20 @@
   max-height: 500px;
 }
 
-.text button{
+.text button {
   background-color: #717171;
   box-shadow: none;
   border: none;
   padding: 25px;
-  font-size: .75em;
+  font-size: 0.75em;
   color: #f2f2f2;
 }
 
-.text button:hover{
+.text button:hover {
   cursor: pointer;
+  background-color: #f2f2f2;
+  color: #121212;
+  border: 2px solid #121212;
 }
 
 /* Number text (1/3 etc) */

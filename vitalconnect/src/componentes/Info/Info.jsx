@@ -27,7 +27,7 @@ const Info = ({ dataUrl }) => {
         key={data.vacunaId ? data.vacunaId : data.examenId}
       >
         <h2 className="info-daily">
-          {data.vacunaId ? "Vacuna" : "Examen"} del día
+          {data.vacunaId ? "Vacuna destacada" : "Examen destacado"}
         </h2>
         <div className="info-details">
           <h3>

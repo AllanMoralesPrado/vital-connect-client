@@ -1,10 +1,12 @@
-.index-container{
-    display: flex;
-    justify-content: center;
+.index-container {
+  display: flex;
+  justify-content: center;
+  max-width: 1400px;
+  margin: auto;
 }
 
-@media screen and (max-width: 1100px){
-    .index-container{
-        flex-wrap: wrap;
-    }
+@media screen and (max-width: 1100px) {
+  .index-container {
+    flex-wrap: wrap;
+  }
 }
