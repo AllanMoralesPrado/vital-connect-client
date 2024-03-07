@@ -49,27 +49,33 @@ function Hero() {
           <div className="numbertext">1 / 3</div>
           <img
             src="https://assets.epuzzle.info/puzzle/075/899/original.webp"
-            style={{ width: "100%" }}
+            alt="..."
           />
-          <div className="text">Caption Text</div>
+          <div className="text">
+            <button type="button">Leer más</button>
+          </div>
         </div>
 
         <div className="mySlides fade">
           <div className="numbertext">2 / 3</div>
           <img
-            src="https://us-tuna-sounds-images.voicemod.net/fca34fb2-f6d6-497a-a097-796139e72871-1677306284038.png"
-            style={{ maxHeight: "500px" }}
+            src="https://assets.epuzzle.info/puzzle/075/899/original.webp"
+            alt="..."
           />
-          <div className="text">Caption Two</div>
+          <div className="text">
+            <button type="button">Leer más</button>
+          </div>
         </div>
 
         <div className="mySlides fade">
           <div className="numbertext">3 / 3</div>
           <img
-            src="https://i.scdn.co/image/ab67616d00001e029a1351ab7d99e55052265974"
-            style={{ maxHeight: "500px" }}
+            src="https://assets.epuzzle.info/puzzle/075/899/original.webp"
+            alt="..."
           />
-          <div className="text">Caption Three</div>
+          <div className="text">
+            <button type="button">Leer más</button>
+          </div>
         </div>
 
         <a className="prev" onClick={() => plusSlides(-1)}>
