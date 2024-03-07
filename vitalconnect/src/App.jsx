@@ -3,7 +3,6 @@ import Footer from "./componentes/Footer/footer";
 import CicloVital from "./pages/CicloVital/CicloVital";
 import Index from "./pages/Index/Index";
 import Popup from "./componentes/Popup/Popup";
-import ScrollList from "./componentes/ScrollList/ScrollList";
 import Examenes from "./pages/Examenes/Examenes";
 import Localizacion from "./pages/Localizacion/Localizacion";
 import Popupvacunas from "./componentes/Popupvacunas/Popupvacunas";
@@ -17,6 +16,7 @@ function App() {
       </header>
 
       <main className="main">
+<<<<<<< HEAD
         {/* <CicloVital /> */}
         {/* {/* <CicloVital /> */}
         {/* <Index /> */}
