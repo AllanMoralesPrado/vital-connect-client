@@ -5,9 +5,8 @@ import Index from "./pages/Index/Index";
 import Popup from "./componentes/Popup/Popup";
 import Examenes from "./pages/Examenes/Examenes";
 import Localizacion from "./pages/Localizacion/Localizacion";
-import Popupvacunas from "./componentes/Popupvacunas/Popupvacunas";
-import ScrollCentros from "./componentes/ScrollCentros/ScrollCentros";
-import Info from "./componentes/Info/Info";
+import ScrollList from "./componentes/ScrollList/ScrollList";
+import Vacunas from "./pages/Vacunas/Vacunas";
 import Vacunas from "./pages/Vacunas/Vacunas";
 
 function App() {
@@ -18,9 +17,14 @@ function App() {
       </header>
 
       <main className="main">
+        {/* <CicloVital /> */}
+        {/* {/* <CicloVital /> */}
         {/* <Index /> */}
         {/* <Popup /> */}
-        {/* <Vacunas /> */}
+        {/* <ScrollList /> */}
+        {/* <Popup /> */}
+        {/* <Examenes /> */}
+        {/* <Localizacion /> */}
         <Vacunas />
       </main>
 
