@@ -53,21 +53,6 @@ function ScrollList() {
           </li>
           <li className="list-item">
             <p>
-              <strong>Dolor de guata</strong>
-            </p>
-            <p>
-              <strong>¿Para quién?:</strong> Recién Nacido
-            </p>
-            <p>
-              <strong>Sexo:</strong> Mujer - Hombre
-            </p>
-            <p>
-              <strong>Protege contra:</strong> Enfermedades invasoras por M.
-              tuberculosis
-            </p>
-          </li>
-          <li className="list-item">
-            <p>
               <strong>Dolor de cabeza</strong>
             </p>
             <p>
