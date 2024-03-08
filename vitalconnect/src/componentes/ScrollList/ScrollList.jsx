@@ -5,7 +5,7 @@ function ScrollList() {
   return (
     <div className="scroll-list-container">
       <div className="scroll-list">
-        <ul>
+        <ul className="scroll-list-ul">
           <li className="list-item">
             <p>
               <strong>BCG</strong>
