@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import mapa from "./map.jpg";
+import ScrollList from "../../componentes/ScrollList/ScrollList";
 
 function Localizacion() {
   return (
@@ -39,9 +40,10 @@ function Localizacion() {
               <option value="2">SUR</option>
             </select>
           </div>
-          <button type="submit" className="button">
+          <button type="button" className="button">
             Buscar
           </button>
+          <ScrollList />
         </div>
         <div className="imagen">
           <img src={mapa} alt="Niñez" style={{ width: "380px" }} />

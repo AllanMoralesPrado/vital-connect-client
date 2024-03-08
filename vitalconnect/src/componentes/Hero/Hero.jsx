@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
+import CesfamHero from "../assets/cesfam-hero.png";
+import SapuHero from "../assets/sapu-hero.png";
+import CecosfHero from "../assets/cecosf-hero.png";
 
 function Hero() {
   const [slideIndex, setSlideIndex] = useState(1);
@@ -47,10 +50,7 @@ function Hero() {
       <div className="slideshow-container">
         <div className="mySlides fade">
           <div className="numbertext">1 / 3</div>
-          <img
-            src="https://assets.epuzzle.info/puzzle/075/899/original.webp"
-            alt="..."
-          />
+          <img src={CesfamHero} alt="..." />
           <div className="text">
             <button type="button">Leer más</button>
           </div>
@@ -58,10 +58,7 @@ function Hero() {
 
         <div className="mySlides fade">
           <div className="numbertext">2 / 3</div>
-          <img
-            src="https://assets.epuzzle.info/puzzle/075/899/original.webp"
-            alt="..."
-          />
+          <img src={SapuHero} alt="..." />
           <div className="text">
             <button type="button">Leer más</button>
           </div>
@@ -69,10 +66,7 @@ function Hero() {
 
         <div className="mySlides fade">
           <div className="numbertext">3 / 3</div>
-          <img
-            src="https://assets.epuzzle.info/puzzle/075/899/original.webp"
-            alt="..."
-          />
+          <img src={CecosfHero} alt="..." />
           <div className="text">
             <button type="button">Leer más</button>
           </div>

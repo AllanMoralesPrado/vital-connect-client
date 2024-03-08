@@ -16,12 +16,6 @@ const Info = ({ dataUrl }) => {
   }, []);
   return (
     <>
-      {/* {data.map((content) => (
-        <div key={content.vacunaId}>
-          <h3>{content.vacunaNombre}</h3>
-          <p>{content.vacunaDescripcion}</p>
-        </div>
-      ))} */}
       <div
         className="info-shape"
         key={data.vacunaId ? data.vacunaId : data.examenId}

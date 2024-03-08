@@ -1,5 +1,5 @@
 .scroll-list-container {
-  border: 1px solid #000000; /*borde contenedor */
+  border: 1px solid #b1b1b1; /*borde contenedor */
   overflow: hidden; /* Oculta el desbordamiento de la lista */
   background-color: #f0ebeb;
   width: 100%;

@@ -1,38 +1,56 @@
-.selector-container{
+.selector-container {
   display: flex;
   flex-direction: column;
-  
 }
 
 .selector-h1 {
-    text-align: center;
-    margin: 0;
-    color: #17726d;
-    font-size: 35px;
-  }
-  
-  .selector-h2 {
-    text-align: center;
-    margin: 0;
-    margin-bottom: 15px;
-    padding: 0px;
-    color: grey;
-    font-size: 30px;
-  }
-  
-  .selector-body {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  
-  .selector-select {
-    margin-right: 15px;
-    border-radius: 5px;
-    width: 100px;
-  }
-  
-  .selector-button {
-    background-color: #17726d;
-    border-radius: 5px;
-  }
+  text-align: center;
+  margin: 0;
+  color: #17726d;
+  font-size: 35px;
+}
+
+.selector-h2 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0px;
+  color: grey;
+  font-size: 30px;
+}
+
+.selector-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.selector-body .imagen {
+  width: 50%;
+  height: inherit;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.selector-filter {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selector-query {
+  margin-bottom: 2rem;
+}
+
+.selector-select {
+  margin-right: 15px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.selector-button {
+  background-color: #17726d;
+  border-radius: 5px;
+}

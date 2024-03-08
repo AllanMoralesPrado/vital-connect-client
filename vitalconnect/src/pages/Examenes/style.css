@@ -1,11 +1,11 @@
-h1 {
+.examenes-page-h1 {
   text-align: center;
   margin: 0;
   color: #17726d;
   font-size: 35px;
 }
 
-h2 {
+.examenes-page-h2 {
   text-align: center;
   margin: 0;
   margin-bottom: 15px;
@@ -14,19 +14,52 @@ h2 {
   font-size: 30px;
 }
 
-.body {
+.examenes-page-body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.select {
-  margin-right: 15px;
-  border-radius: 5px;
-  width: 100px;
+.examenes-page-img,
+.examenes-page-filter {
+  width: 50%;
+  margin: 20px;
 }
 
-.button {
-  background-color: #17726d;
-  border-radius: 5px;
+.examenes-page-select,
+.examenes-page-button {
+  margin: 8px;
+  border-radius: 8px;
+  height: 30px;
+  border: none;
+}
+
+.examenes-page-select {
+  margin-left: 0;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.examenes-page-button {
+  background-color: #21ba39;
+  color: var(--color-secondary-light);
+}
+
+.examenes-page-button:hover {
+  cursor: pointer;
+}
+
+/*Media query para cuando la imagen se empiece a achicar*/
+/*cuando eso pase, entonces ocultar la imagen y que el filtro tome todo el ancho*/
+
+@media screen and (max-width: 670px) {
+  .examenes-page-img {
+    display: none;
+  }
+
+  .examenes-page-filter {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 3rem;
+  }
 }

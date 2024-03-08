@@ -32,7 +32,7 @@ function Popup() {
                 <option value="1">Vacuna</option>
                 <option value="2">Examen</option>
               </select>
-              <button type="submit">Buscar</button>
+              <button type="button">Buscar</button>
             </div>
             <div className="popup-scrolllist">
               <ScrollList />

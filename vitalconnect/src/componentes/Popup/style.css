@@ -45,6 +45,10 @@
   color: var(--color-secondary-light);
 }
 
+.popup button:hover {
+  cursor: pointer;
+}
+
 button.cerrar {
   position: absolute;
   top: 0px;

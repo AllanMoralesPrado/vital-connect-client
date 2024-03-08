@@ -13,17 +13,19 @@ function Selector() {
         </div>
         <div className="selector-body">
           <div className="imagen">
-            <img src={vacunaImg} alt="Vacuna-img" style={{ width: "380px" }} />
+            <img src={vacunaImg} alt="Vacuna-img" style={{ width: "100%" }} />
           </div>
           <div className="selector-filter">
-            <select name="sexo" className="selector-select">
-              <option value="">sexo</option>
-              <option value="1">Mujer</option>
-              <option value="2">Hombre</option>
-            </select>
-            <button type="submit" className="selector-button">
-              Buscar
-            </button>
+            <div className="selector-query">
+              <select name="sexo" className="selector-select">
+                <option value="">sexo</option>
+                <option value="1">Mujer</option>
+                <option value="2">Hombre</option>
+              </select>
+              <button type="submit" className="selector-button">
+                Buscar
+              </button>
+            </div>
             <ScrollList />
           </div>
         </div>
