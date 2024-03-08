@@ -19,7 +19,7 @@ function Popup() {
             onClick={(e) => e.stopPropagation()}
           >
             <button className="cerrar" onClick={togglePopup}>
-              X
+              &times;
             </button>
             <div className="popup-content">
               <h2>Centro de salud familiar La Florida</h2>

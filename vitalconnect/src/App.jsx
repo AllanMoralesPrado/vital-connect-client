@@ -8,6 +8,7 @@ import Localizacion from "./pages/Localizacion/Localizacion";
 import ScrollList from "./componentes/ScrollList/ScrollList";
 import Vacunas from "./pages/Vacunas/Vacunas";
 import Selector from "./componentes/Selector/Selector";
+import Modal from "./componentes/Modal/Modal";
 function App() {
   return (
     <>
@@ -20,12 +21,15 @@ function App() {
         {/* {/* <CicloVital /> */}
         {/* <Index /> */}
         {/* <Popup /> */}
-        {/* <ScrollList /> */}
+        <ScrollList />
         {/* <Popup /> */}
         {/* <Examenes /> */}
         {/* <Localizacion /> */}
-        <ScrollList />
+        {/* <ScrollList />
+        <Popup /> */}
+        <Modal />
         <Popup />
+        <Selector />
       </main>
 
       <Footer />
