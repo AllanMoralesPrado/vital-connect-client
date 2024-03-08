@@ -8,6 +8,9 @@ import imgAdultoMayor from "./adulto_mayor.webp";
 const optionsCicloVital = [
   {
     id: 1,
+    title: "Niñez",
+    urlTitle: "ninez",
+    age: "0 a 11 años",
     content: (
       <div className="options-ciclo-vital">
         <img src={imgNinez} alt="Niñez" style={{ width: "100%" }} />
@@ -19,6 +22,9 @@ const optionsCicloVital = [
   },
   {
     id: 2,
+    title: "Adolescencia",
+    urlTitle: "adolescencia",
+    age: "12 a 18 años",
     content: (
       <div className="options-ciclo-vital">
         <img
@@ -34,6 +40,9 @@ const optionsCicloVital = [
   },
   {
     id: 3,
+    title: "Adultez",
+    urlTitle: "adultez",
+    age: "18 a 59 años",
     content: (
       <div className="options-ciclo-vital">
         <img src={imgAdultez} alt="Adultez" style={{ width: "100%" }} />
@@ -45,6 +54,9 @@ const optionsCicloVital = [
   },
   {
     id: 4,
+    title: "Adulto Mayor",
+    urlTitle: "adultomayor",
+    age: "más de 60 años (mujeres) o 65 años (hombres)",
     content: (
       <div className="options-ciclo-vital">
         <img
@@ -60,13 +72,4 @@ const optionsCicloVital = [
   },
 ];
 
-const optionsMenu = [
-  { id: 1, content: <span className="options-menu">VACUNAS POR EDAD</span> },
-  { id: 2, content: <span className="options-menu">EXÁMENES POR EDAD</span> },
-  {
-    id: 3,
-    content: <span className="options-menu">MAPA DE CENTROS MÉDICOS</span>,
-  },
-];
-
-export { optionsCicloVital, optionsMenu };
+export { optionsCicloVital };

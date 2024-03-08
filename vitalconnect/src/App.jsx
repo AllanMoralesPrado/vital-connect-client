@@ -10,6 +10,7 @@ import Vacunas from "./pages/Vacunas/Vacunas";
 import Selector from "./componentes/Selector/Selector";
 import Modal from "./componentes/Modal/Modal";
 import Popupvacunas from "./componentes/Popupvacunas/Popupvacunas";
+import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
@@ -18,20 +19,20 @@ function App() {
       </header>
 
       <main className="main">
-        {/* <CicloVital /> */}
-        {/* <CicloVital /> */}
-        <Index />
-        {/* <Popup /> */}
-        {/* <ScrollList /> */}
-        <Popup />
-        <Examenes />
-        {/* <Localizacion /> */}
-        {/* <ScrollList /> */}
-        {/* <Modal />
-        <Popup /> */}
-        <Vacunas />
-        <Popupvacunas />
-        <Localizacion />
+        <Routes>
+          <Route path="/" element={<Index />}></Route>
+          <Route
+            path="/vacunas"
+            element={<CicloVital serviceName={"vacunas"} />}
+          ></Route>
+          <Route path="/vacunas/:ciclovital" element={<Vacunas />}></Route>
+          <Route
+            path="/examenes"
+            element={<CicloVital serviceName={"exámenes"} />}
+          ></Route>
+          <Route path="/examenes/:ciclovital" element={<Examenes />}></Route>
+          <Route path="/localizador" element={<Localizacion />}></Route>
+        </Routes>
       </main>
 
       <Footer />

@@ -1,13 +1,10 @@
 import ButtonGroup from "../../componentes/ButtonGroup/ButtonGroup";
-import {
-  optionsCicloVital,
-  optionsMenu,
-} from "../../componentes/assets/opciones";
+import { optionsCicloVital } from "../../componentes/assets/opciones";
 
-function CicloVital() {
+function CicloVital({ serviceName }) {
   return (
     <>
-      <ButtonGroup options={optionsCicloVital} />
+      <ButtonGroup options={optionsCicloVital} serviceName={serviceName} />
     </>
   );
 }
